@@ -1,0 +1,12 @@
+numbers = [8, -4, 100]
+
+# using loop
+result = numbers[0]
+for num in numbers:
+    if num > result:
+        result = num
+        
+print(f"The largest number is {result}")
+
+# using built-in function
+print(f"The largest number is {max(numbers)}")
